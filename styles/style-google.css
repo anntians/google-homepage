@@ -1,0 +1,84 @@
+body {
+    width: 100%;
+    margin: 0px;
+    /*background-color: rgba(204, 255, 255, 0.4); uses rgba where last place controls opacity*/
+    background: white;
+    padding: 0px 20px 20px 20px;
+    position: relative;
+
+  }
+
+  .google-logo{
+    display: block;
+    margin:250px auto;
+    position: relative;
+  }
+
+  .search-logo{
+      opacity: 0.5;
+      transform: scale(0.6);
+      position:relative;
+      bottom:3px;
+  }
+
+  .mic-logo{
+      opacity: 0.5;
+      transform: scale(0.6);
+      position:relative;
+      bottom:3px;
+      left:83%;
+  }
+
+  .search{
+    border-color: lightgray;
+    border-width: 1px;
+    border-style:solid;
+    border-radius: 25px; /*this is for smoothing out corners*/
+
+    width:600px;
+    height:45px;
+    position:absolute;
+    left:33%;
+    bottom:200px;
+    
+
+  }
+
+  .search:hover{
+    background-color: #fff;
+    box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+    border-color: rgba(223,225,229,0);
+  }
+
+  .input{
+      position: relative;
+      height:28px;
+      bottom:45%;
+      right:55px;
+      width: 80%;
+      border-color: transparent;
+  }
+
+  #flex-container{
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+        align-items: center;
+  }
+
+  .sign-up{
+      margin:5px 0px 5px 5px;
+      background-color: blue;
+      width: 80px;
+      height:30px;
+      text-align: center;
+      padding: 5px;
+      color:white;
+  }
+  
+
+  
+
+  
+
+  
